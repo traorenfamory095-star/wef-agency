@@ -1,12 +1,5 @@
 import React from 'react';
-import { 
-  ArrowRight,
-  CheckCircle2,
-  Zap, 
-  Target, 
-  Heart, 
-  Award
-} from 'lucide-react';
+import {ArrowRight, CheckCircle2, Zap, Target, Heart, Award} from 'lucide-react';
 
 // Importation des données depuis le fichier .js
 import { values, team } from '../data/projects';
@@ -47,7 +40,7 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-6">
-              Une vision audacieuse du web, centrée sur l'humain et la performance.
+              Une vision audacieuse, centrée sur l'humain et la performance.
             </h2>
             <p className="text-slate-600 mb-4 leading-relaxed">
               Fondée en 2022 au cœur de Kinshasa, WEF Agency est née de la vision audacieuse et de la fusion de deux entités dynamiques : WebIprint et Efocrea Agency. En unissant leurs forces, leurs expertises et leurs passions, les fondateurs ont su créer une structure hybride, capable de répondre aux défis technologiques, créatifs et administratifs des entreprises et des particuliers.
