@@ -4,7 +4,7 @@
     title: "Développement Web Full-Stack (Vidéo)",
     category: "Formation Vidéo",
     price: "25$",
-    description: "Apprenez à concevoir des applications web dynamiques de A à Z avec HTML, CSS, JavaScript, React et Node.js.",
+    description: "Apprendre à concevoir des applications web dynamiques de A à Z avec HTML, CSS, JavaScript, React et Node.js.",
     duration: "3 Mois",
     level: "Débutant à Avancé",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
