@@ -351,7 +351,7 @@ Responsable principalement de :
 
 ---
 
-## 👩🏾‍💻 Collaboratrice
+## 👩🏾‍💻 Resia djonga
 
 Responsable principalement de :
 
@@ -741,15 +741,15 @@ Le développement avec Tailwind CSS sera réalisé progressivement après la con
 
 ## 🚧 En cours
 
-* [ ] Finalisation des données des services
-* [ ] Vérification des tarifs
-* [ ] Création des cartes de services
-* [ ] Page Services
+* [x] Finalisation des données des services
+* [x] Vérification des tarifs
+* [x] Création des cartes de services
+* [x] Page Services
 * [ ] Page détail d'un service
 * [ ] Ajout des icônes
 * [ ] Recherche et ajout des photos des services
 * [ ] Intégration du design
-* [ ] Responsive design
+* [x] Responsive design
 
 ## ⏳ À venir
 
@@ -833,7 +833,7 @@ Les données doivent rester séparées du code d'affichage afin de faciliter leu
 Projet réalisé en collaboration avec :
 
 * N'famory
-* Collaboratrice du projet
+* Resia djonga
 
 Technologies principales :
 
