@@ -1,18 +1,17 @@
 function ServiceCard({ service }) {
   const Icon = service.icone
+  
 
   return (
-    <article className="relative shadow-md rounded-2xl w-4/5 mb-6">
+    <article className="shadow-md rounded-2xl mb-6">
       <img 
         src={service.image} 
         alt={service.description} 
-        className="rounded-t-2xl h-50 object-cover"
+        className="rounded-t-2xl h-50 w-full object-cover group-hover:scale-105 transition-transform duration-300"
       />
 
       <h2 
-        className="flex gap-2 my-6 mx-4 
-          items-center font-bold text-lg
-        "
+        className="flex gap-2 my-6 mx-4 items-center font-bold text-lg"
       >
         <Icon className="text-blue-500 bg-blue-100 p-2 rounded-lg" size={30} />
         {service.nom}
@@ -20,7 +19,7 @@ function ServiceCard({ service }) {
       <p className="my-6 mx-4 text-gray-500 text-sm">{service.description}</p>
       <p className="text-gray-400 uppercase ml-4 text-xs font-semibold">indication tarifiaire</p>
       <ul className="flex divide-x text-[10px] gap-1 mx-4 my-4">
-        <li className="line-clamp-1">noir blanc 2 000 FC / noir blanc web 3 000 FC / couleur 3 000 FC / couleur web 4 000 FC</li>
+        <li className="line-clamp-1">noir blanc {service.tarifs.noirBlanc} / couleur {service.tarifs.couleur} / couleur en ligne {service.tarifs.couleurEnLigne} / noir blanc en ligne {service.tarifs.noirBlancEnLigne}</li>
       </ul>
 
       <button className="

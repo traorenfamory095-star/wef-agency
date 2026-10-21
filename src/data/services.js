@@ -19,110 +19,118 @@ import BadgeComplexe from "../assets/services/08-badge-complexe.png"
 
 const services = [
   {
-    id: 1,
-    nom: "Saisie simple texte",
-    description: "Saisie simple de texte par page.",
-    icone: Keyboard,
-    image: SaisieSimple,
-    tarifs: {
-      noirBlanc: "1 000 FC",
-      noirBlancEnLigne: "2 000 FC",
-      couleur: "1 500 FC",
-      couleurEnLigne: "3 000 FC",
-    },
+  id: 1,
+  nom: "Saisie simple texte",
+  description: "Saisie simple de texte par page.",
+  icone: Keyboard,
+  image: SaisieSimple,
+  categorie: "print",
+  tarifs: {
+    noirBlanc: "1 000 FC",
+    noirBlancEnLigne: "2 000 FC",
+    couleur: "1 500 FC",
+    couleurEnLigne: "3 000 FC",
   },
+},
 
-  {
-    id: 2,
-    nom: "Saisie complexe",
-    description: "Saisie complexe de texte par page.",
-    icone: FileText,
-    image:SaisieComplexe,
-    tarifs: {
-      noirBlanc: "2 000 FC",
-      noirBlancEnLigne: "3 000 FC",
-      couleur: "3 000 FC",
-      couleurEnLigne: "4 000 FC",
-    },
+{
+  id: 2,
+  nom: "Saisie complexe",
+  description: "Saisie complexe de texte par page.",
+  icone: FileText,
+  image: SaisieComplexe,
+  categorie: "print",
+  tarifs: {
+    noirBlanc: "2 000 FC",
+    noirBlancEnLigne: "3 000 FC",
+    couleur: "3 000 FC",
+    couleurEnLigne: "4 000 FC",
   },
+},
 
-  {
-    id: 3,
-    nom: "Tableau simple",
-    description: "Saisie d'un tableau simple par page.",
-    icone: Table,
-    image: TableauSimple,
-    tarifs: {
-      noirBlanc: "1 500 FC",
-      couleur: "2 000 FC",
-      couleurEnLigne: "3 000 FC",
-    },
+{
+  id: 3,
+  nom: "Tableau simple",
+  description: "Saisie d'un tableau simple par page.",
+  icone: Table,
+  image: TableauSimple,
+  categorie: "print",
+  tarifs: {
+    noirBlanc: "1 500 FC",
+    couleur: "2 000 FC",
+    couleurEnLigne: "3 000 FC",
   },
+},
 
-  {
-    id: 4,
-    nom: "Tableau complexe",
-    description: "Saisie d'un tableau complexe par page.",
-    icone: Files,
-    image: TableauComplexe,
-    tarifs: {
-      noirBlanc: "2 500 FC",
-      couleur: "3 000 FC",
-      couleurEnLigne: "4 000 FC",
-    },
+{
+  id: 4,
+  nom: "Tableau complexe",
+  description: "Saisie d'un tableau complexe par page.",
+  icone: Files,
+  image: TableauComplexe,
+  categorie: "print",
+  tarifs: {
+    noirBlanc: "2 500 FC",
+    couleur: "3 000 FC",
+    couleurEnLigne: "4 000 FC",
   },
+},
 
-  {
-    id: 5,
-    nom: "Page de garde simple",
-    description: "Création d'une page de garde simple.",
-    icone: FileImage,
-    image: PageGardeSimple,
-    tarifs: {
-      noirBlanc: "2 000 FC",
-      couleur: "3 000 FC",
-      couleurEnLigne: "4 000 FC",
-    },
+{
+  id: 5,
+  nom: "Page de garde simple",
+  description: "Création d'une page de garde simple.",
+  icone: FileImage,
+  image: PageGardeSimple,
+  categorie: "design",
+  tarifs: {
+    noirBlanc: "2 000 FC",
+    couleur: "3 000 FC",
+    couleurEnLigne: "4 000 FC",
   },
+},
 
-  {
-    id: 6,
-    nom: "Page de garde complexe",
-    description: "Création d'une page de garde complexe.",
-    icone: Image,
-    image: PageGardeComplexe,
-    tarifs: {
-      noirBlanc: "3 000 FC",
-      couleur: "5 000 FC",
-      couleurEnLigne: "6 000 FC",
-    },
+{
+  id: 6,
+  nom: "Page de garde complexe",
+  description: "Création d'une page de garde complexe.",
+  icone: Image,
+  image: PageGardeComplexe,
+  categorie: "design",
+  tarifs: {
+    noirBlanc: "3 000 FC",
+    couleur: "5 000 FC",
+    couleurEnLigne: "6 000 FC",
   },
+},
 
-  {
-    id: 7,
-    nom: "Carte / Badge Word simple",
-    description: "Création d'une carte ou d'un badge simple avec Word.",
-    icone: CreditCard,
-    image: BadgeSimple,
-    tarifs: {
-      noirBlanc: "5 000 FC",
-      couleur: "7 000 FC",
-      couleurEnLigne: "7 000 FC",
-    },
+{
+  id: 7,
+  nom: "Carte / Badge Word simple",
+  description: "Création d'une carte ou d'un badge simple avec Word.",
+  icone: CreditCard,
+  image: BadgeSimple,
+  categorie: "design",
+  tarifs: {
+    noirBlanc: "5 000 FC",
+    couleur: "7 000 FC",
+    couleurEnLigne: "7 000 FC",
   },
+},
 
-  {
-    id: 8,
-    nom: "Carte / Badge Word complexe",
-    description: "Création d'une carte ou d'un badge complexe avec Word.",
-    icone: BadgeCheck,
-    image: BadgeComplexe,
-    tarifs: {
-      noirBlanc: "7 000 FC",
-      couleur: "10 000 FC",
-      couleurEnLigne: "10 000 FC",
-    },
+{
+  id: 8,
+  nom: "Carte / Badge Word complexe",
+  description: "Création d'une carte ou d'un badge complexe avec Word.",
+  icone: BadgeCheck,
+  image: BadgeComplexe,
+  categorie: "design",
+  tarifs: {
+    noirBlanc: "7 000 FC",
+    couleur: "10 000 FC",
+    couleurEnLigne: "10 000 FC",
   },
+},
   /*
   {
     id: 9,
